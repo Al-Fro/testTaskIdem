@@ -1,0 +1,113 @@
+.page {
+  padding: 0px 0 10px;
+  box-sizing: border-box;
+  width: 651px;
+  height: 759px;
+  background-image: url(images/image.png) ;
+}
+
+.message-space {
+  padding-top: 22px;
+  overflow-y: scroll;
+  border-style: solid;
+  border-width: 0 0 1px;
+  border-color: #DBDBDB;
+  height: 495px;
+}
+
+.flex-container {
+  padding: 0 10px;
+  margin-bottom: 14px;
+  display: flex;
+  margin-top: 19px;
+}
+
+.flex-container_row-reverse {
+  flex-direction: row-reverse;
+}
+
+.avatar {
+  padding-left: 6px;
+  padding-right: 20px;
+}
+
+.avatar_user {
+  padding-left: 21px;
+  padding-right: 10px;
+}
+
+.message {
+  max-width: 440px;
+  background: #f1f3f5;
+  border-radius: 5px;
+  padding: 12px 15px 11px 15px;
+}
+
+.message_text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.message_user {
+  padding: 12px 22px 11px 10px;
+}
+
+.message-divider {
+  display: flex;
+}
+
+.message-divider__left {
+  width: 40%;
+  padding-top: 6px;
+}
+
+.message-divider__right {
+  width: 40%;
+  padding-top: 6px;
+}
+
+.message-divider-date {
+  width: 20%;
+  padding-top: 3px;
+  padding-left: 18px;
+  padding-right: 10px;
+}
+
+.message-divider-date__date {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.textarea {
+  resize: none;
+  width: 590px;
+  height: 129px;
+  margin: 20 20 0;
+  background: #FFFFFF;
+  border: 1px solid #DBDBDB;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.button {
+  width: 141px;
+  height: 41px;
+  margin: 3px 22px;
+  background: #0F54B9;
+  border: none;
+  box-shadow: 0px 4px 6px rgba(15, 84, 185, 0.3);
+  border-radius: 21px;
+
+  font-family: Proxima Nova;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
